@@ -1,0 +1,8 @@
+body {
+    display:flex;
+}
+
+#roundResults, #resultsDisplay {
+    display:flex;
+    flex-direction:column;
+}
