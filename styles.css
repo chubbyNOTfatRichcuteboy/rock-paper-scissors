@@ -1,8 +1,39 @@
 body {
     display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:honeydew;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #roundResults, #resultsDisplay {
     display:flex;
     flex-direction:column;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+
+
+button {
+    box-sizing:border-box;
+    background: darkseagreen;
+    border: 1px;
+    padding:10px;
+    width:80px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+#choices {
+    display:flex;
+    gap:10px;
+}
+
+button:hover {
+    background-color:#5f9f5f;
+    box-shadow:0 0 3px 1px black;
 }
